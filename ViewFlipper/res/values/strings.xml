@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewFlipper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+<!--     content descriptions -->
+	<string name="contentDescription1">chiquito</string>
+	<string name="contentDescription2">barragan</string>
+	<string name="contentDescription3">eugenio</string>
+	<string name="contentDescription4">gila</string>
+
+</resources>

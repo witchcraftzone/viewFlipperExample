@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+    
+    <ViewFlipper 
+        android:id="@+id/view_flipper_component"
+        android:layout_width="wrap_content"
+    	android:layout_height="fill_parent" 
+    	android:layout_centerInParent="true" >
+    	
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView1"
+            android:src="@drawable/chiquito"
+            android:contentDescription="@string/contentDescription1" />
+        
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/barragan"
+            android:contentDescription="@string/contentDescription2" />
+        
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/eugenio"
+            android:contentDescription="@string/contentDescription3" />
+        
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/gila"
+            android:contentDescription="@string/contentDescription4" />
+    	
+    </ViewFlipper>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#99000000"
+        android:gravity="center"
+   	    android:orientation="horizontal" >
+   		
+   	    <Button 
+   	        android:id="@+id/play"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginRight="10dp"
+   	        android:background="@drawable/ic_media_play"
+   	        android:gravity="center" 
+   	        style="@android:attr/buttonBarButtonStyle" />
+   	    
+   	    <Button 
+   	        android:id="@+id/stop"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginRight="10dp"
+   	        android:background="@drawable/ic_media_stop"
+   	        android:gravity="center"
+   	        style="@android:attr/buttonBarButtonStyle" />
+   	    
+   	</LinearLayout>
+
+</RelativeLayout>
